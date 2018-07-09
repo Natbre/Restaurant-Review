@@ -292,6 +292,26 @@ nav h1 a {
   height: 100%;
   width: 100%;
 }
+   #restaurant-name {
+    font-size: 45pt;
+  }
+  #restaurant-address {
+    font-size: 45pt;
+    width: 90%;
+
+  }
+  #restaurant-hours, tr, td {
+    font-size: 24pt;
+  }
+  #restaurant-cuisine {
+    font-size: 22pt;
+
+  }
+  #reviews-list, li, p {
+    font-size: 24pt;
+
+  }
+}
 #restaurants-list li {
 	width: 50%;
 }
@@ -311,26 +331,6 @@ nav h1 a {
 }
 
 }
-@media all and (min-width: 769px) {
-  #restaurant-name {
-    font-size: 45pt;
-  }
-  #restaurant-address {
-    font-size: 45pt;
-    width: 90%;
 
-  }
-  #restaurant-hours, tr, td {
-    font-size: 24pt;
-  }
-  #restaurant-cuisine {
-    font-size: 22pt;
-
-  }
-  #reviews-list, li, p {
-    font-size: 24pt;
-
-  }
-  }
 =======
 >>>>>>> 537f14024fe3efe2b9e8d1b19a9b0018a8396d70
