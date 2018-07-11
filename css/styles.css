@@ -293,29 +293,31 @@ nav h1 a {
   width: 100%;
 }
    #restaurant-name {
-    font-size: 45pt;
+    font-size: 30pt;
   }
   #restaurant-address {
-    font-size: 45pt;
+    font-size: 20pt;
     width: 90%;
 
   }
   #restaurant-hours, tr, td {
-    font-size: 24pt;
+    font-size: 18pt;
   }
   #restaurant-cuisine {
-    font-size: 22pt;
+    font-size: 18pt;
 
   }
   #reviews-list, li, p {
-    font-size: 24pt;
+    font-size: 22pt;
 
   }
 }
 #restaurants-list li {
 	width: 50%;
 }
-
+#restaurants-list li p {
+  font-size: 30pt;
+}
 }
 
 @media screen and (min-width: 1000px){
@@ -328,8 +330,10 @@ nav h1 a {
 }
 #restaurants-list li {
 	width: 33%;
-}
 
+}
+#restaurants-list li p {
+  font-size: 30pt;
 }
 
 =======

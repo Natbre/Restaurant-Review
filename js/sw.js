@@ -3,7 +3,7 @@ self.addEventListener('fetch', function(event){
 	event.respondWith(
 		fetch(event.reuest).then(function(response){
 			if(response.status===404){
-				return fetch ('Erroe');
+				return fetch ('Error');
 			}
 			return response;
 		}).catch(function(){
@@ -23,7 +23,8 @@ self.addEventListener('install', function(event){
         'css/styles.css',
         'index.html',
         'restaurant.html',
-				])
+        'data/restaurants.json'
+		])
 		}))
 })
 

@@ -10,7 +10,7 @@
   <title>Restaurant Info</title>
 </head>
 
-<body class="inside">
+<body class="inside" tabindex="-1">
   <!-- Beginning header -->
   <header>
     <!-- Beginning nav -->
@@ -18,7 +18,7 @@
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
+    <ul id="breadcrumb" role="navigation" >
       <li><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -30,11 +30,11 @@
   <main id="maincontent">
     <!-- Beginning map -->
     <section id="map-container">
-      <div id="map"></div>
+      <div id="map" role="application"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
-    <section id="restaurant-container">
+    <section id="restaurant-container" tabindex="-1">
       <h1 id="restaurant-name"></h1>
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
@@ -62,7 +62,7 @@
   <!-- Main javascript file -->
   <script type="text/javascript" src="js/restaurant_info.js"></script>
   <!-- Google Maps -->
- <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_tKbW6A5pQ-eupxI56myUnHLqYCzOjKo&libraries=places&callback=initMap"></script> -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABdg22fI8WcPW6oBTcy3EjU9RNNiZQ2HA&libraries=places&callback=initMap"></script>
   <!-- End scripts -->
 
 </body>
